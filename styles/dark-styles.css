@@ -1,0 +1,43 @@
+#wrapper
+{
+    background-image: linear-gradient(to right, #000000, #434343);
+    
+}
+#wrapper #services
+{
+    background-color: #4b4b4b;
+}
+#num2
+{
+    background-color: #4b4b4b;
+}
+#num1
+{
+    background-color: #4b4b4b;
+}
+
+footer h1{
+    color:white;
+}
+
+
+#cpy{
+    color: white;
+}
+
+.boxcontent a{
+color: white;
+}
+
+.cont::after{
+    background-color: white;
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgb(12, 12, 12);
+}
+
+::-webkit-scrollbar-thumb {
+    background: white;
+    border-radius: 30px;
+  }
