@@ -40,4 +40,41 @@ color: white;
 ::-webkit-scrollbar-thumb {
     background: white;
     border-radius: 30px;
+}
+
+.feedback:hover{
+    transition: 0.5s ease;
+    transform: scale(1.06,1.06);
+    background-color: rgb(32, 32, 32);
+    color:white;
+}
+
+#wrapper #services #servicesWrapper div:nth-child(2) {
+    background-color: black;
+}
+
+#wrapper #services #servicesWrapper div:nth-child(2) p {
+    color: #cfcfcf;
+    text-shadow: 0px 0px 10px 0px #000000;
+    margin: 10px;
+}
+
+.butt{
+    transition: .5s ease;
+    margin-right: 10px;
+    cursor: pointer;
+    border-width: 1px;
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 5px;
+  }
+
+.clicked{
+    background-color: rgba(0, 0, 0, 0.589);
+}
+
+.butt:hover{
+    background-color: grey;
+    transform: scale(1.06);
+    transition: 0.5s ease;
   }
