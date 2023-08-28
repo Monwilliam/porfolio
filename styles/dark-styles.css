@@ -77,4 +77,12 @@ color: white;
     background-color: grey;
     transform: scale(1.06);
     transition: 0.5s ease;
-  }
+}
+
+#darkMode{
+    background-color: black;
+}
+
+#darkMode img{
+    filter: brightness(0) invert(1);
+}
